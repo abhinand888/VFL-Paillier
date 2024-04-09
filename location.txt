@@ -1,0 +1,14 @@
+
+Location for fate_paillier.py file:
+
+	/data/projects/fate/fate/python/federatedml/secureprotol/fate_paillier.py
+	
+Location for log.py file:
+
+	/data/projects/fate/fate/python/fate_arch/common/log.py
+	
+Location for patch.py file:
+
+	/data/projects/fate/env/python/miniconda/lib/python3.8/logging/patch.py
+		
+	
