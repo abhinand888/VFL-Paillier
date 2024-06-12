@@ -356,8 +356,8 @@ class PaillierEncryptedNumber(object):
         LOGGER.info("Enter __raw_add")
         ciphertext = gmpy_math.mpz(e_x) * gmpy_math.mpz(e_y) % self.public_key.nsquare
 
-        abhinand_result =  PaillierEncryptedNumber(self.public_key, int(ciphertext), exponent)
+        my_result =  PaillierEncryptedNumber(self.public_key, int(ciphertext), exponent)
 
         LOGGER.info("Exit __raw_add")
 
-        return abhinand_result
+        return my_result
